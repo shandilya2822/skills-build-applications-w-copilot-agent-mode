@@ -2,8 +2,12 @@ from django.core.management.base import BaseCommand
 from api.models import User, Team, Activity, Workout, Leaderboard
 import random
 
+
 class Command(BaseCommand):
-    help = 'Populate the database with test data.'
+    """
+    Populate the octofit_db database with test data
+    """
+    help = 'Populate the octofit_db database with test data.'
 
     def handle(self, *args, **kwargs):
         users = []
