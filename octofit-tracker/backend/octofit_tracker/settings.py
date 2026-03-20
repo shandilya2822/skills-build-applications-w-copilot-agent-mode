@@ -1,3 +1,4 @@
+# DJONGO is used as the database engine for MongoDB integration
 """
 Django settings for octofit_tracker project.
 
